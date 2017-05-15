@@ -20,7 +20,6 @@ import './index.css';
 //render function is pulling everything from the navigation-bar.js file
 ReactDOM.render(
   // <NavigationBar title='Thinkful Tee' links={links} />,
-  //The only thing that gets rendered is the address-book.js file
   <AddressBook />,
   document.getElementById('root')
 )
